@@ -1,0 +1,33 @@
+.page-header {
+  background: var(--color-black);
+  color: var(--color-white);
+  text-align: center;
+  padding: 3.5rem 0 3rem;
+}
+
+.page-header h1 {
+  font-size: clamp(1.9rem, 4.5vw, 2.8rem);
+  margin-bottom: 0.4rem;
+}
+
+.page-header__subtitle {
+  color: var(--color-gold);
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.page-header__bar {
+  display: block;
+  width: 70px;
+  height: 4px;
+  margin: 1.25rem auto 0;
+  border-radius: 2px;
+  background: var(--color-gold);
+}
+
+@media (max-width: 600px) {
+  .page-header {
+    padding: 2.5rem 0 2.25rem;
+  }
+}

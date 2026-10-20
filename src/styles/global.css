@@ -1,0 +1,234 @@
+/* ===== Couleurs du logo ===== */
+:root {
+  --color-gold: #f6c625;
+  --color-red: #dd181e;
+  --color-black: #27282a;
+  --color-gray: #7f8082;
+  --color-white: #ffffff;
+  --color-bg-soft: #f6f6f7;
+  --color-border: #e3e3e5;
+
+  --font-main: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto,
+    Arial, sans-serif;
+
+  --container-width: 1140px;
+  --radius: 10px;
+  --shadow: 0 4px 16px rgba(39, 40, 42, 0.08);
+}
+
+/* ===== Reset ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--color-black);
+  background: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 0.6em;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+}
+
+h2 {
+  font-size: clamp(1.6rem, 3.5vw, 2.3rem);
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* ===== Mise en page ===== */
+.container {
+  width: 100%;
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.section--soft {
+  background: var(--color-bg-soft);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+/* Bande aux couleurs du logo (jaune / rouge / noir) */
+.flag-stripe {
+  height: 6px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--color-gold) 0 33.33%,
+    var(--color-red) 33.33% 66.66%,
+    var(--color-black) 66.66% 100%
+  );
+}
+
+/* ===== Boutons ===== */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.6rem;
+  border: 2px solid transparent;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn--primary {
+  background: var(--color-red);
+  color: var(--color-white);
+}
+
+.btn--primary:hover {
+  background: #b8131a;
+}
+
+.btn--outline {
+  background: transparent;
+  color: var(--color-black);
+  border-color: var(--color-black);
+}
+
+.btn--outline:hover {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+/* ===== Grilles responsives ===== */
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 900px) {
+  .grid--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .section {
+    padding: 2.75rem 0;
+  }
+
+  .grid--3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Page de test (temporaire) ===== */
+.test-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.test-page__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1.25rem;
+  gap: 0.5rem;
+}
+
+.test-page__tagline {
+  color: var(--color-gray);
+  font-size: 1.25rem;
+}
+
+.test-page__icons {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.test-page__icons .fa-gold {
+  color: var(--color-gold);
+}
+
+.test-page__icons .fa-red {
+  color: var(--color-red);
+}
+
+.test-page__icons .fa-black {
+  color: var(--color-black);
+}
+
+/* ===== Layout général ===== */
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout__main {
+  flex: 1;
+}

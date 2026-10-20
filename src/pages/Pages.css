@@ -1,0 +1,329 @@
+/* ===== Vorstand ===== */
+.board-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+}
+
+.board-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.25rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-gold);
+  border-radius: var(--radius);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.board-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.board-card__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 1.25rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid var(--color-gold);
+  background: var(--color-bg-soft);
+  color: var(--color-gray);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.board-card__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.board-card__name {
+  margin-bottom: 0.3rem;
+  font-size: 1.15rem;
+}
+
+.board-card__role {
+  margin: 0;
+  color: var(--color-red);
+  font-weight: 600;
+}
+
+/* ===== Aktivitäten ===== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  gap: 1.5rem;
+}
+
+.gallery__item {
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--radius);
+  background: var(--color-bg-soft);
+  border: 1px solid var(--color-border);
+}
+
+.gallery__item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.gallery__caption {
+  padding: 0.9rem 1rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-black);
+}
+
+.gallery__placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-gray);
+  font-weight: 600;
+}
+
+.gallery__placeholder svg {
+  font-size: 2.2rem;
+}
+
+/* ===== Spenden ===== */
+.donate-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.donate-info__intro {
+  font-size: 1.15rem;
+}
+
+.receipt-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: var(--color-bg-soft);
+  border-left: 4px solid var(--color-gold);
+  border-radius: var(--radius);
+}
+
+.receipt-box h3 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.receipt-box h3 svg,
+.bank-card__title svg {
+  color: var(--color-red);
+}
+
+.bank-card {
+  padding: 2rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-top: 4px solid var(--color-red);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.bank-card__title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+
+.bank-card__list {
+  margin: 0;
+}
+
+.bank-card__row {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.bank-card__row:last-child {
+  border-bottom: none;
+}
+
+.bank-card__row dt {
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-gray);
+}
+
+.bank-card__row dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin: 0.2rem 0 0;
+}
+
+.bank-card__value {
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.bank-card__pending {
+  color: var(--color-gray);
+  font-style: italic;
+}
+
+.copy-control {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.copy-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: var(--color-white);
+  color: var(--color-black);
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.copy-btn:hover {
+  background: var(--color-black);
+  color: var(--color-white);
+}
+
+.copy-status {
+  max-width: 15rem;
+  color: var(--color-red);
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+/* ===== Kontakt ===== */
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-gold);
+  border-radius: var(--radius);
+}
+
+.info-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--color-gold);
+  color: var(--color-black);
+  font-size: 1.2rem;
+}
+
+.info-card__label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-gray);
+}
+
+.info-card__value {
+  display: block;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.info-card__link:hover {
+  color: var(--color-red);
+}
+
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.map-wrap {
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.map-wrap iframe {
+  display: block;
+  width: 100%;
+  height: 380px;
+  border: 0;
+}
+
+@media (max-width: 900px) {
+  .board-grid,
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .donate-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .board-grid,
+  .gallery,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-actions .btn {
+    width: 100%;
+  }
+
+  .map-wrap iframe {
+    height: 300px;
+  }
+
+  .bank-card {
+    padding: 1.5rem 1.25rem;
+  }
+}

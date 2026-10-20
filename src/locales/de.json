@@ -1,0 +1,133 @@
+{
+  "common": {
+    "siteName": "Afrikanischen in Dortmund e.V.",
+    "tagline": "Gemeinsam für Vielfalt",
+    "donate": "Spenden"
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "board": "Vorstand",
+    "activities": "Aktivitäten",
+    "donate": "Spenden",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "footer": {
+    "about": "Gemeinnütziger Verein in Dortmund: persönliche Beratung, Betreuung und Begleitung für Migranten und Geflüchtete aus Sub-Sahara Afrika.",
+    "navigation": "Navigation",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "placeholder": {
+    "comingSoon": "Diese Seite wird in Kürze ausgefüllt."
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Persönliche Beratung, Betreuung und Begleitung für Migranten und Geflüchtete aus Sub-Sahara Afrika.",
+      "about": "Über uns"
+    },
+    "about": {
+      "title": "Über uns",
+      "text": "„Afrikanischen in Dortmund e.V.“ ist ein eingetragener gemeinnütziger Verein, der gemeinsam von Senegalesischen Mitbürgern in Dortmund gegründet wurde. Der Schwerpunkt unserer Arbeit ist die persönliche Beratung, Betreuung und Begleitung der Migranten und Geflüchteten aus Sub-Sahara Afrika bei der Bewältigung ihres Alltags sowie die Förderung des solidarischen Zusammenlebens von Menschen aus verschiedenen Kulturen.",
+      "more": "Mehr erfahren",
+      "imageAlt": "Mitglieder des Vereins vor dem Aufsteller von Afrikanischen in Dortmund e.V."
+    },
+    "focus": {
+      "title": "Unsere Schwerpunkte",
+      "items": {
+        "cooperation": "Förderung der Entwicklungszusammenarbeit und der internationalen Beziehungen zwischen Deutschland und Senegal",
+        "counselling": "Alltagsberatung für Migranten und Geflüchtete aus Sub-Sahara Afrika",
+        "family": "Familienarbeit",
+        "women": "Frauen & Empowerment",
+        "rights": "Förderung der Menschenrechte und Chancengleichheit für benachteiligte Gruppen",
+        "culture": "Förderung von Kulturprojekten",
+        "volunteering": "Freiwilligenarbeit und Volontariat"
+      }
+    },
+    "cta": {
+      "title": "Unterstützen Sie unsere Arbeit",
+      "text": "Als gemeinnütziger Verein können wir Ihnen auf Anfrage eine Spendenquittung ausstellen."
+    }
+  },
+  "about": {
+    "p1": "„Afrikanischen in Dortmund e.V.“ ist ein eingetragener gemeinnütziger Verein, der gemeinsam von Senegalesischen Mitbürgern in Dortmund gegründet wurde.",
+    "p2": "Der Schwerpunkt unserer Arbeit ist die persönliche Beratung, Betreuung und Begleitung der Migranten und Geflüchteten aus Sub-Sahara Afrika bei der Bewältigung ihres Alltags, die Förderung des solidarischen Zusammenlebens von Menschen aus verschiedenen Kulturen und die Förderung der Familien- und Elternarbeit.",
+    "p3": "Darüber hinaus fördern wir die Menschenrechte und die Chancengleichheit für benachteiligte Gruppen sowie die Entwicklungszusammenarbeit und die internationalen Beziehungen zwischen Deutschland und Senegal.",
+    "facts": {
+      "title": "Auf einen Blick",
+      "legalLabel": "Rechtsform",
+      "legalValue": "Eingetragener gemeinnütziger Verein (e.V.)",
+      "foundersLabel": "Gründer",
+      "foundersValue": "Senegalesische Mitbürger in Dortmund",
+      "addressLabel": "Vereinsadresse",
+      "addressValue": "Missunder Straße 62, 44145 Dortmund"
+    },
+    "cta": {
+      "title": "Haben Sie Fragen oder möchten Sie mitmachen?"
+    }
+  },
+  "board": {
+    "subtitle": "Unser Vorstand",
+    "roles": {
+      "chair": "Vorsitzender",
+      "deputy": "Zweiter Vorsitzender",
+      "secretary": "Schriftführer",
+      "treasurer": "Schatzmeister",
+      "treasurer2": "Zweite Schatzmeisterin",
+      "treasurer3": "Dritte Schatzmeisterin"
+    }
+  },
+  "activities": {
+    "subtitle": "Einblicke in unsere Arbeit",
+    "photoSoon": "Foto folgt",
+    "imageAlt": "Foto aus der Vereinsarbeit, Bild {{number}}",
+    "captions": {
+      "banner": "Mitglieder vor dem Informationsstand des Vereins",
+      "discussion": "Austausch und Beratung im Freien",
+      "communityEvent": "Gemeinschaftsveranstaltung im Innenhof",
+      "communityGathering": "Zusammenkommen der Vereinsgemeinschaft",
+      "families": "Begegnung von Familien und Kindern",
+      "servingFood": "Gemeinsames Vorbereiten und Teilen von Speisen",
+      "courtyardEvent": "Begegnung und Austausch im Innenhof",
+      "children": "Spiel und Begegnung für Kinder",
+      "foodPrep": "Freiwillige bei der Essensvorbereitung",
+      "barbecue": "Gemeinsames Grillen bei einer Vereinsveranstaltung",
+      "communityMeetup": "Gemeinschaftstreffen im Freien",
+      "volunteers": "Freiwillige beim gemeinsamen Grillen",
+      "indoorMeeting": "Austausch und Treffen in Innenräumen"
+    }
+  },
+  "donate": {
+    "subtitle": "Jede Spende hilft",
+    "intro": "Mit Ihrer Spende unterstützen Sie die Arbeit von Afrikanischen in Dortmund e.V.",
+    "bankTitle": "Bankverbindung",
+    "recipient": "Empfänger",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bankName": "Bank",
+    "purpose": "Verwendungszweck",
+    "pending": "Wird in Kürze ergänzt",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "copyFailed": "Kopieren nicht möglich. Bitte kopieren Sie den Text manuell.",
+    "receiptTitle": "Spendenquittung",
+    "receiptButton": "Spendenquittung anfragen",
+    "receiptSubject": "Spendenquittung"
+  },
+  "contact": {
+    "subtitle": "Wir freuen uns auf Ihre Nachricht",
+    "address": "Vereinsadresse",
+    "person": "Ansprechpartner",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "writeMail": "E-Mail schreiben",
+    "openMap": "In Google Maps öffnen",
+    "mapTitle": "Karte mit der Vereinsadresse"
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht."
+  }
+}

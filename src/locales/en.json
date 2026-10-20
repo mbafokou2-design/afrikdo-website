@@ -1,0 +1,133 @@
+{
+  "common": {
+    "siteName": "Africans in Dortmund e.V.",
+    "tagline": "Together for Diversity",
+    "donate": "Donate"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "board": "Board",
+    "activities": "Activities",
+    "donate": "Donate",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "footer": {
+    "about": "Non-profit association in Dortmund: personal counselling, support and guidance for migrants and refugees from Sub-Saharan Africa.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  },
+  "placeholder": {
+    "comingSoon": "This page will be filled in soon."
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Personal counselling, support and guidance for migrants and refugees from Sub-Saharan Africa.",
+      "about": "About us"
+    },
+    "about": {
+      "title": "About us",
+      "text": "\"Afrikanischen in Dortmund e.V.\" is a registered non-profit association founded jointly by Senegalese residents of Dortmund. The focus of our work is personal counselling, support and guidance for migrants and refugees from Sub-Saharan Africa as they manage their everyday lives, as well as promoting solidarity and coexistence among people from different cultures.",
+      "more": "Learn more",
+      "imageAlt": "Association members in front of the Africans in Dortmund e.V. banner"
+    },
+    "focus": {
+      "title": "Our Focus Areas",
+      "items": {
+        "cooperation": "Promoting development cooperation and international relations between Germany and Senegal",
+        "counselling": "Everyday counselling for migrants and refugees from Sub-Saharan Africa",
+        "family": "Family work",
+        "women": "Women & Empowerment",
+        "rights": "Promoting human rights and equal opportunities for disadvantaged groups",
+        "culture": "Promoting cultural projects",
+        "volunteering": "Volunteering and voluntary service"
+      }
+    },
+    "cta": {
+      "title": "Support our work",
+      "text": "As a non-profit association, we can issue a donation receipt on request."
+    }
+  },
+  "about": {
+    "p1": "\"Afrikanischen in Dortmund e.V.\" is a registered non-profit association founded jointly by Senegalese residents of Dortmund.",
+    "p2": "The focus of our work is personal counselling, support and guidance for migrants and refugees from Sub-Saharan Africa as they manage their everyday lives, promoting solidarity and coexistence among people from different cultures, and promoting family and parent work.",
+    "p3": "In addition, we promote human rights and equal opportunities for disadvantaged groups, as well as development cooperation and international relations between Germany and Senegal.",
+    "facts": {
+      "title": "At a glance",
+      "legalLabel": "Legal form",
+      "legalValue": "Registered non-profit association (e.V.)",
+      "foundersLabel": "Founders",
+      "foundersValue": "Senegalese residents of Dortmund",
+      "addressLabel": "Association address",
+      "addressValue": "Missunder Straße 62, 44145 Dortmund"
+    },
+    "cta": {
+      "title": "Do you have questions or would you like to get involved?"
+    }
+  },
+  "board": {
+    "subtitle": "Our Board",
+    "roles": {
+      "chair": "Chairperson",
+      "deputy": "Deputy Chairperson",
+      "secretary": "Secretary",
+      "treasurer": "Treasurer",
+      "treasurer2": "Second Treasurer",
+      "treasurer3": "Third Treasurer"
+    }
+  },
+  "activities": {
+    "subtitle": "Insights into our work",
+    "photoSoon": "Photo coming soon",
+    "imageAlt": "Photo from the association's activities, image {{number}}",
+    "captions": {
+      "banner": "Members in front of the association's information stand",
+      "discussion": "Outdoor conversation and community support",
+      "communityEvent": "Community event in the courtyard",
+      "communityGathering": "Members of the community coming together",
+      "families": "Families and children spending time together",
+      "servingFood": "Preparing and sharing food together",
+      "courtyardEvent": "Meeting and connecting in the courtyard",
+      "children": "Play and activities for children",
+      "foodPrep": "Volunteers preparing food",
+      "barbecue": "Community barbecue at an association event",
+      "communityMeetup": "Outdoor community gathering",
+      "volunteers": "Volunteers sharing a barbecue",
+      "indoorMeeting": "Indoor community meeting and discussion"
+    }
+  },
+  "donate": {
+    "subtitle": "Every donation helps",
+    "intro": "With your donation you support the work of Africans in Dortmund e.V.",
+    "bankTitle": "Bank details",
+    "recipient": "Recipient",
+    "iban": "IBAN",
+    "bic": "BIC",
+    "bankName": "Bank",
+    "purpose": "Reference",
+    "pending": "Will be added soon",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyFailed": "Copying failed. Please copy the text manually.",
+    "receiptTitle": "Donation receipt",
+    "receiptButton": "Request a donation receipt",
+    "receiptSubject": "Donation receipt"
+  },
+  "contact": {
+    "subtitle": "We look forward to hearing from you",
+    "address": "Association address",
+    "person": "Contact person",
+    "phone": "Phone",
+    "email": "Email",
+    "writeMail": "Send an email",
+    "openMap": "Open in Google Maps",
+    "mapTitle": "Map showing the association address"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist."
+  }
+}
