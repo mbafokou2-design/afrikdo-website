@@ -100,8 +100,8 @@ function Header() {
               />
             </button>
           </div>
-        </header>
-      </div>
+        </div>
+      </header>
       <button
         type="button"
         className={`nav-overlay${open ? " nav-overlay--visible" : ""}`}

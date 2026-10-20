@@ -1,0 +1,197 @@
+@keyframes page-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.page-enter {
+  animation: page-enter 0.4s ease both;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+.reveal--visible {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes grow-bar {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70px;
+  }
+}
+
+@keyframes icon-pop {
+  from {
+    opacity: 0;
+    transform: rotate(-90deg) scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hero__text > * {
+  animation: fade-up 0.8s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero__text > :nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.hero__text > :nth-child(2) {
+  animation-delay: 0.15s;
+}
+
+.hero__text > :nth-child(3) {
+  animation-delay: 0.25s;
+}
+
+.hero__text > :nth-child(4) {
+  animation-delay: 0.35s;
+}
+
+.hero__logo-wrap {
+  animation: pop-in 0.9s 0.2s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hero__logo {
+  animation: float 6s ease-in-out 1.2s infinite;
+}
+
+.page-header h1 {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.page-header__subtitle {
+  animation: fade-up 0.7s 0.12s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.page-header__bar {
+  animation: grow-bar 0.7s 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.btn:active {
+  transform: translateY(0) scale(0.97);
+}
+
+.focus-card__icon {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.focus-card:hover .focus-card__icon {
+  transform: scale(1.12) rotate(-6deg);
+}
+
+.board-card__photo {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.3s ease;
+}
+
+.board-card:hover .board-card__photo {
+  transform: scale(1.06);
+  border-color: var(--color-red);
+}
+
+.gallery__item img {
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.gallery__item:hover img {
+  transform: scale(1.06);
+}
+
+.gallery__placeholder {
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.gallery__item:hover .gallery__placeholder {
+  border-color: var(--color-gold);
+  color: var(--color-black);
+}
+
+.info-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.about-focus__item {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-focus__item:hover {
+  transform: translateX(6px);
+  box-shadow: var(--shadow);
+}
+
+.bank-card__row {
+  transition: background 0.2s ease;
+}
+
+.footer__list .footer__link {
+  display: inline-block;
+}
+
+.footer__list .footer__link:hover {
+  transform: translateX(4px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
