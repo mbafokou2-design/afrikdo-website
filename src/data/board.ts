@@ -21,7 +21,7 @@ export const boardMembers: BoardMember[] = [
     photo: "/images/board/el-hadji-drame.jpg",
   },
   {
-    name: "VIEUX SEIDY TRÉSOR",
+    name: "VIEUX SEIDY",
     roleKey: "treasurer",
     photo: "/images/board/vieux-seidy-tresor.jpg",
   },
