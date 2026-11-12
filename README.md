@@ -1,32 +1,56 @@
-# React + TypeScript + Vite
+<div align="center">
+  <img src="public/images/logo.jpg" alt="Afrikanischen in Dortmund e.V. logo" width="160" />
+  <h1>Afrikanischen in Dortmund e.V.</h1>
+  <p><strong>A community website built to present the association, its work, and its activities in Dortmund.</strong></p>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+---
 
-Currently, two official plugins are available:
+## About the project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This website was developed as a web project to introduce Afrikanischen in Dortmund e.V. and make information about the association and its community activities easier to find. The site is in German and includes responsive pages, imagery, and client-side navigation.
 
-## React Compiler
+## Built with
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Vite
+- React Router
+- i18next
 
-## Expanding the Oxlint configuration
+## Run locally
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Install dependencies and start the development server:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Vite will print the local development URL in the terminal.
+
+## Production build
+
+Create an optimized static build:
+
+```bash
+npm run build
+```
+
+The deployable website is generated in `dist/`. Preview the production build locally with:
+
+```bash
+npm run preview
+```
+
+## Hosting on LWS
+
+Upload the **contents** of `dist/` to the website's document root in the LWS hosting panel. The build includes the Apache `.htaccess` file for React Router routes, caching, and basic security headers.
+
+## Project structure
+
+```text
+public/       Static images, icons, and Apache hosting rules
+src/          React application source
+dist/         Production build output (created by npm run build)
+```
